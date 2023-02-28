@@ -1,0 +1,87 @@
+/* navbar css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+body {
+  font-family: sans-serif;
+} */
+
+.navbar {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.navbar-brand img {
+  width: 5rem;
+}
+
+/* home page css */
+
+.section {
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1 h2 {
+  color: #eb455f;
+  font-weight: bolder;
+}
+
+.sec1 h4 {
+  color: grey;
+}
+
+.sec1 button {
+  margin-top: 1rem;
+  background-color: #2b3467;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.sec1 button:hover {
+  border-radius: 30px;
+  color: #eb455f;
+}
+
+.sec1 a {
+  background-color: #2b3467;
+  color: white;
+  text-decoration: none;
+  margin-top: 16px;
+  margin-left: 10px;
+  border-radius: 0.2rem;
+  padding: 10px 10px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 img {
+  width: 13rem;
+  border-radius: 1.5rem;
+}
+
+/* Education page */
+
+.container img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-right: 5px;
+}
